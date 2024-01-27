@@ -1,4 +1,4 @@
-# Chameleon Package : I can feel and mimic your sentence
+# Chameleon Package : Mimic your sentence feelings
 
 Chameleon package provides an algorithm that finds the closest sentence such that, given a sentiment analysis model and a target sentence, identifies a different sentence which has same sentiment score when rounded to n decimal digits.
 
