@@ -8,7 +8,7 @@ model = HuggingFaceModel(
 probe = SimpleButEfficientProbe(model, "My grandmother's secret sauce is the best ever made!")
 
 
-result = probe.run(epsilon=1e-2)
+result = probe.run(epsilon=1e-3)
 
 print("Found sentence:", result.sentence)
 print("Scores:", result.scores)

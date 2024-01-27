@@ -35,6 +35,19 @@ print("Scores:", result.scores)
 
 ```
 
+# Important Note
+
+Before running this code please install spacy en_core_web_lg. Via :
+
+```ruby
+python -m spacy download en_core_web_lg
+
+```
+
+
+This package is currently loaded within the SimpleButEfficientProbe. For production purposes, it should be loaded outside of the class. However, to adhere to the submission format, I have kept it within the class.
+
+
 
 
 
