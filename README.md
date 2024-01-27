@@ -11,6 +11,8 @@ The algorithm works as follow :
 	- If the created sentence is closer to the target : sample from synonyms closer to this sentence for the next 100 iteration 
 	- If no closer sentence is found in the closest words resample again from the whole synonyms list.
 
+The algorithm stops after 5 trials or if it finds a sentence that meets the stopping criterion and is sufficiently different from the target (Levenshtein distance >= 30).
+
 Here is an example on how to use :
 
 ```ruby
