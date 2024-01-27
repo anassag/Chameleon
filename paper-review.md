@@ -24,6 +24,12 @@ Consequently, it remains debatable whether Chainpoll consistently outperforms ot
 
 I also believe that during the development of the chainpoll metric, minor modifications to the prompt can be made to enhance the data gathered about hallucinations. For instance, we could integrate an extra prompt that instructs GPT-3.5 to evaluate the response on a scale from 1 to 5, which can then be translated into a binary yes or no answer. This approach would maintain a cost comparable to the original while enriching the diversity of the information obtained. One can also employ an additional classifier after the Chainpoll output (which includes a binary answer and its justification) to determine whether the input contains any hallucinations.
 
+[1] Yupeng Chang et al. “A Survey on Evaluation of Large Language Models”.  ACM Trans. Intell. Syst. Technol. (Jan. 2024).
+[2] Yue Zhang et al. “Siren’s song in the ai ocean: A survey on hallucination in large language models”. arXiv preprint arXiv:2309.01219 (2023).
+
+
+
+
 
 
 
